@@ -72,7 +72,7 @@ module RbtcArbitrage
     end
 
     def fetch_prices
-      logger.info "Fetching exchange rates" if @options[:verbose]
+      logger.info "Fetching exchange rates. Please wait a moment." if @options[:verbose]
       buyer[:price] = @buy_client.price(:buy)
       seller[:price] = @sell_client.price(:sell)
       prices = [buyer[:price], seller[:price]]
