@@ -22,6 +22,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake"
 
   spec.add_dependency "mtgox"
+  spec.add_dependency "guten-mtgox"
   spec.add_dependency "bitstamp"
   spec.add_dependency "activemodel", ">= 3.1"
   spec.add_dependency "activesupport", ">= 3.1"
