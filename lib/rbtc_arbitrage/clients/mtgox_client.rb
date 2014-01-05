@@ -38,6 +38,7 @@ module RbtcArbitrage
         }[action]
         #@price = MtGox.ticker.send(action)
         price = MtGox.ticker
+        price =5
       end
 
       # `action` is :buy or :sell
